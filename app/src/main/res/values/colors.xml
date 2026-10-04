@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Pokédex brand colors -->
+    <color name="colorPrimary">#CC0000</color>
+    <color name="colorPrimaryDark">#9B0000</color>
+    <color name="colorAccent">#FFCB05</color>
+    <color name="colorBackground">#F5F5F5</color>
+    <color name="colorSurface">#FFFFFF</color>
+    <color name="colorOnPrimary">#FFFFFF</color>
+
+    <!-- Type colors (Pokémon types) -->
+    <color name="type_normal">#A8A878</color>
+    <color name="type_fire">#F08030</color>
+    <color name="type_water">#6890F0</color>
+    <color name="type_grass">#78C850</color>
+    <color name="type_electric">#F8D030</color>
+    <color name="type_ice">#98D8D8</color>
+    <color name="type_fighting">#C03028</color>
+    <color name="type_poison">#A040A0</color>
+    <color name="type_ground">#E0C068</color>
+    <color name="type_flying">#A890F0</color>
+    <color name="type_psychic">#F85888</color>
+    <color name="type_bug">#A8B820</color>
+    <color name="type_rock">#B8A038</color>
+    <color name="type_ghost">#705898</color>
+    <color name="type_dragon">#7038F8</color>
+    <color name="type_dark">#705848</color>
+    <color name="type_steel">#B8B8D0</color>
+    <color name="type_fairy">#EE99AC</color>
+
+    <!-- UI colors -->
+    <color name="card_background">#FFFFFF</color>
+    <color name="text_primary">#212121</color>
+    <color name="text_secondary">#757575</color>
+    <color name="divider">#E0E0E0</color>
+    <color name="pokeball_red">#CC0000</color>
+    <color name="pokeball_black">#1A1A1A</color>
+    <color name="splash_bg_top">#CC0000</color>
+    <color name="splash_bg_bottom">#9B0000</color>
+    <color name="item_card_bg">#FFFFFF</color>
+    <color name="number_text">#BDBDBD</color>
+</resources>

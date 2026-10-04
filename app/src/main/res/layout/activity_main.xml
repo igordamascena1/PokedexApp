@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_splash"
+    tools:context=".MainActivity">
+
+    <!-- Decorative large pokeball circle (background) -->
+    <ImageView
+        android:layout_width="360dp"
+        android:layout_height="360dp"
+        android:layout_gravity="top|end"
+        android:layout_marginTop="-80dp"
+        android:layout_marginEnd="-80dp"
+        android:alpha="0.15"
+        android:contentDescription=""
+        android:src="@drawable/pokeball_circle" />
+
+    <!-- Decorative smaller pokeball circle -->
+    <ImageView
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:layout_gravity="bottom|start"
+        android:layout_marginStart="-40dp"
+        android:layout_marginBottom="80dp"
+        android:alpha="0.10"
+        android:contentDescription=""
+        android:src="@drawable/pokeball_circle" />
+
+    <!-- Main content centered -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="32dp">
+
+        <!-- Pokéball icon -->
+        <ImageView
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:layout_marginBottom="32dp"
+            android:contentDescription="Pokébola"
+            android:src="@drawable/ic_pokeball" />
+
+        <!-- App title -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:fontFamily="sans-serif-black"
+            android:letterSpacing="0.1"
+            android:text="Pokédex"
+            android:textColor="#FFFFFF"
+            android:textSize="48sp"
+            android:textStyle="bold" />
+
+        <!-- Subtitle -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:gravity="center"
+            android:text="1ª Geração"
+            android:textColor="#FFCB05"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:letterSpacing="0.15" />
+
+        <!-- Description -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="48dp"
+            android:gravity="center"
+            android:text="Explore a lista completa de Pokémon\nda primeira geração!"
+            android:textColor="#CCFFFFFF"
+            android:textSize="15sp"
+            android:lineSpacingExtra="4dp" />
+
+        <!-- Access button -->
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnAcessar"
+            android:layout_width="220dp"
+            android:layout_height="56dp"
+            android:text="ACESSAR POKÉDEX"
+            android:textSize="14sp"
+            android:textColor="#CC0000"
+            android:textStyle="bold"
+            android:letterSpacing="0.08"
+            app:backgroundTint="#FFCB05"
+            app:cornerRadius="28dp"
+            xmlns:app="http://schemas.android.com/apk/res-auto" />
+
+        <!-- Pokémon count hint -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="20 Pokémon disponíveis"
+            android:textColor="#88FFFFFF"
+            android:textSize="12sp" />
+
+    </LinearLayout>
+
+</FrameLayout>

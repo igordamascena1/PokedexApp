@@ -1,0 +1,9 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.PokdexApp" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your dark theme here. -->
+    </style>
+    <style name="Base.Theme.PokédexApp" parent="Base.Theme.PokdexApp" />
+    <style name="Theme.PokdexApp" parent="Base.Theme.PokdexApp" />
+    <style name="Theme.PokédexApp" parent="Theme.PokdexApp" />
+</resources>
